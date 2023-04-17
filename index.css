@@ -309,6 +309,9 @@ footer {
 .dev-socials {
     font-size: 3rem;
 }
+.mailto {
+    color: var(--white-color);
+}
 .dev-socials i {
     margin: 1rem;
     cursor: pointer;
