@@ -301,7 +301,23 @@ footer {
     color: var(--white-color);
 }
 .footer-section {
+    display: flex;
     margin: 0 auto;
+}
+.dev-ad {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dev-ad p {
+    font-size: 3rem;
+    display: block;
+}
+.dev-details {
+    width: 45%;
 }
 .myPic {
     border-radius: 50%;
@@ -312,6 +328,38 @@ footer {
 .mailto {
     color: var(--white-color);
 }
+/* Mail To Button :> */
+.mailto {
+    padding: 1.6rem 2rem;
+    width: 20rem;
+    height: 6rem;
+    border: 2px solid var(--white-color);
+    color: var(--white-color);
+    z-index: 1;
+    background: var(--black-color);
+    font-weight: 1000;
+    font-size: 2rem;
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+.mailto::before {
+    content: "";
+    background-color: #212121;
+    z-index: -1;
+    transition: all 250ms
+   }
+   
+.mailto:hover {
+    color: var(--black-color);
+    background-color: var(--white-color);
+    border: 2px solid var(--white-color);
+   }
+   
+.mailto:hover::before {
+    width: 100%;
+   }
+/* Mail To Button :> */
 .dev-socials i {
     margin: 1rem;
     cursor: pointer;
