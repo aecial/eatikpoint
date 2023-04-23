@@ -249,17 +249,18 @@ ul {
 }
 .product-title {
     margin-top: 2px;
-    margin-bottom: 0;
+    margin-bottom: .5rem;
+    border-bottom: 4px solid var(--black-color);
     text-align: center;
     font-family: Helvetica-Bold;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: var(--text-color);
 }
 .product-price {
     margin-top: 0;
     margin-bottom: 0;
     font-family: Helvetica-Bold;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     color: var(--text-color);
 }
